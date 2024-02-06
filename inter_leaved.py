@@ -1,4 +1,4 @@
-def smart_inter(func):    
+def smart_inter(func):
     def suparate(a, b):
         print("Start")
         func(a, b)
@@ -6,7 +6,7 @@ def smart_inter(func):
     return suparate
 
 
-@smart_inter     
+@smart_inter
 def inter_leaved(a, b):
     out = ""
     for i in range(len(a)):

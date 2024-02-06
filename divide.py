@@ -6,7 +6,7 @@ def smart_devide(func):
     return inner
 
 
-@smart_devide    
+@smart_devide
 def devide(n):
     for i in range(1, n+1):
         if i % 5 == 0 and i % 7 == 0:
