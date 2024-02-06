@@ -1,3 +1,7 @@
+"""This program is to add to strings.
+Arguments: a and b
+"""
+
 def smart_inter(func):
     def suparate(a, b):
         print("Start")
